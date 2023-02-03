@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Person from './Components/Person';
-import Man from './Components/Man';
+// import Man from './Components/Man';
 
 function App() {
   
   return (
     <div className='App'>
-      <Person></Person>
-      <Man></Man>
+      <Person name= "Nasim" />
+      <Person name= "Qamar" />
+      <Person name= "Samreen" />
+      {/* <Man></Man> */}
     </div>
   );
 }
