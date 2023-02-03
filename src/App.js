@@ -7,10 +7,10 @@ function App() {
   
   return (
     <div className='App'>
-      <Person name= "Nasim" />
-      <Person name= "Qamar" />
-      <Person name= "Samreen" />
-      {/* <Man></Man> */}
+      <Person name= "Nasim" age ="69" />
+      <Person name= "Qamar"  age = "57"/>
+      <Person name= "Samreen" age = "41" />
+     
     </div>
   );
 }
